@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Song.create([
+    { title: "Like Sugar", artist: "Chaka Khan", time: "4:01", is_fav: false},
+    { title: "Lollipop (Ode to jim)", artist: "Alvvays", time: "4:39", is_fav: false},
+    { title: "Flowers in December", artist: "Mazzy Star", time: "4:23", is_fav: false}
+]);
+
+puts Song.all
