@@ -10,7 +10,8 @@ Song.create([
     { title: "Like Sugar", artist: "Chaka Khan", time: "4:01", is_fav: false},
     { title: "Lollipop (Ode to Jim)", artist: "Alvvays", time: "4:39", is_fav: false},
     { title: "Flowers in December", artist: "Mazzy Star", time: "4:23", is_fav: false},
-    { title: "Earth", artist: "Michael Jackson", time: "6:45", is_fav: true}
+    { title: "Earth", artist: "Michael Jackson", time: "6:45", is_fav: true},
+    { title: "Pass It On Down", artist: "Alabama", time: "4:37", is_fav: true}
 ]);
 
 puts Song.all
