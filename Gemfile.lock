@@ -138,7 +138,7 @@ GEM
     zeitwerk (2.4.1)
 
 PLATFORMS
-  "ruby", "x86_64-linux"
+  x64-mingw32
 
 DEPENDENCIES
   awesome_print
